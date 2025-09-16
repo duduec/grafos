@@ -105,6 +105,7 @@ caminho_dfs, custo_dfs = dfs(inicio, objetivo)
 caminho_dij, custo_dij = dijkstra(inicio, objetivo)
 
 # Exibindo resultados
-print("BFS:", caminho_bfs, "| Passos:", len(caminho_bfs) - 1)
-print("DFS:", caminho_dfs, "| Passos:", len(caminho_dfs) - 1, "| Custo total:", custo_dfs, "km")
-print("Dijkstra:", caminho_dij, "| Passos:", len(caminho_dij) - 1, "| Custo total:", custo_dij, "km")
+
+# BFS: ['Pelotas', 'Camaquã', 'Porto Alegre'] | Passos: 2
+# DFS: ['Pelotas', 'Camaquã', 'Guaíba', 'Porto Alegre'] | Passos: 3 | Custo total: 245 km
+# Dijkstra: ['Pelotas', 'Camaquã', 'Guaíba', 'Porto Alegre'] | Passos: 3 | Custo total: 245 km
